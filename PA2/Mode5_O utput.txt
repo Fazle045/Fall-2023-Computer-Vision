@@ -1,0 +1,144 @@
+Torch device selected:  cuda
+The model structure is:  ConvNet(
+  (conv1): Conv2d(1, 40, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(40, 40, kernel_size=(5, 5), stride=(1, 1))
+  (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  (fc1): Linear(in_features=640, out_features=1000, bias=True)
+  (fc2): Linear(in_features=1000, out_features=1000, bias=True)
+  (fc3): Linear(in_features=1000, out_features=10, bias=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+The loss function used here:  CrossEntropyLoss()
+The optimizer used here:  SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.03
+    maximize: False
+    momentum: 0
+    nesterov: False
+    weight_decay: 0
+)
+Epoch : 1
+Train set: Average loss: 0.2578, Accuracy: 55049/60000 (92%)
+Test set: Average loss: 0.0490, Accuracy: 9853/10000 (99%)
+Epoch : 2
+Train set: Average loss: 0.0994, Accuracy: 58214/60000 (97%)
+Test set: Average loss: 0.0308, Accuracy: 9904/10000 (99%)
+Epoch : 3
+Train set: Average loss: 0.0783, Accuracy: 58617/60000 (98%)
+Test set: Average loss: 0.0259, Accuracy: 9923/10000 (99%)
+Epoch : 4
+Train set: Average loss: 0.0676, Accuracy: 58814/60000 (98%)
+Test set: Average loss: 0.0281, Accuracy: 9914/10000 (99%)
+Epoch : 5
+Train set: Average loss: 0.0628, Accuracy: 58891/60000 (98%)
+Test set: Average loss: 0.0317, Accuracy: 9895/10000 (99%)
+Epoch : 6
+Train set: Average loss: 0.0573, Accuracy: 58956/60000 (98%)
+Test set: Average loss: 0.0251, Accuracy: 9917/10000 (99%)
+Epoch : 7
+Train set: Average loss: 0.0507, Accuracy: 59109/60000 (99%)
+Test set: Average loss: 0.0220, Accuracy: 9927/10000 (99%)
+Epoch : 8
+Train set: Average loss: 0.0471, Accuracy: 59168/60000 (99%)
+Test set: Average loss: 0.0242, Accuracy: 9926/10000 (99%)
+Epoch : 9
+Train set: Average loss: 0.0469, Accuracy: 59129/60000 (99%)
+Test set: Average loss: 0.0201, Accuracy: 9937/10000 (99%)
+Epoch : 10
+Train set: Average loss: 0.0431, Accuracy: 59239/60000 (99%)
+Test set: Average loss: 0.0225, Accuracy: 9925/10000 (99%)
+Epoch : 11
+Train set: Average loss: 0.0425, Accuracy: 59227/60000 (99%)
+Test set: Average loss: 0.0261, Accuracy: 9923/10000 (99%)
+Epoch : 12
+Train set: Average loss: 0.0392, Accuracy: 59277/60000 (99%)
+Test set: Average loss: 0.0227, Accuracy: 9926/10000 (99%)
+Epoch : 13
+Train set: Average loss: 0.0356, Accuracy: 59337/60000 (99%)
+Test set: Average loss: 0.0198, Accuracy: 9943/10000 (99%)
+Epoch : 14
+Train set: Average loss: 0.0366, Accuracy: 59325/60000 (99%)
+Test set: Average loss: 0.0199, Accuracy: 9931/10000 (99%)
+Epoch : 15
+Train set: Average loss: 0.0344, Accuracy: 59360/60000 (99%)
+Test set: Average loss: 0.0185, Accuracy: 9948/10000 (99%)
+Epoch : 16
+Train set: Average loss: 0.0345, Accuracy: 59375/60000 (99%)
+Test set: Average loss: 0.0215, Accuracy: 9934/10000 (99%)
+Epoch : 17
+Train set: Average loss: 0.0306, Accuracy: 59451/60000 (99%)
+Test set: Average loss: 0.0193, Accuracy: 9943/10000 (99%)
+Epoch : 18
+Train set: Average loss: 0.0312, Accuracy: 59426/60000 (99%)
+Test set: Average loss: 0.0211, Accuracy: 9938/10000 (99%)
+Epoch : 19
+Train set: Average loss: 0.0298, Accuracy: 59463/60000 (99%)
+Test set: Average loss: 0.0223, Accuracy: 9937/10000 (99%)
+Epoch : 20
+Train set: Average loss: 0.0297, Accuracy: 59456/60000 (99%)
+Test set: Average loss: 0.0194, Accuracy: 9945/10000 (99%)
+Epoch : 21
+Train set: Average loss: 0.0301, Accuracy: 59442/60000 (99%)
+Test set: Average loss: 0.0231, Accuracy: 9938/10000 (99%)
+Epoch : 22
+Train set: Average loss: 0.0296, Accuracy: 59455/60000 (99%)
+Test set: Average loss: 0.0173, Accuracy: 9951/10000 (100%)
+Epoch : 23
+Train set: Average loss: 0.0285, Accuracy: 59463/60000 (99%)
+Test set: Average loss: 0.0178, Accuracy: 9941/10000 (99%)
+Epoch : 24
+Train set: Average loss: 0.0270, Accuracy: 59510/60000 (99%)
+Test set: Average loss: 0.0198, Accuracy: 9947/10000 (99%)
+Epoch : 25
+Train set: Average loss: 0.0262, Accuracy: 59486/60000 (99%)
+Test set: Average loss: 0.0214, Accuracy: 9941/10000 (99%)
+Epoch : 26
+Train set: Average loss: 0.0250, Accuracy: 59554/60000 (99%)
+Test set: Average loss: 0.0196, Accuracy: 9945/10000 (99%)
+Epoch : 27
+Train set: Average loss: 0.0251, Accuracy: 59561/60000 (99%)
+Test set: Average loss: 0.0175, Accuracy: 9946/10000 (99%)
+Epoch : 28
+Train set: Average loss: 0.0237, Accuracy: 59591/60000 (99%)
+Test set: Average loss: 0.0193, Accuracy: 9946/10000 (99%)
+Epoch : 29
+Train set: Average loss: 0.0227, Accuracy: 59582/60000 (99%)
+Test set: Average loss: 0.0194, Accuracy: 9946/10000 (99%)
+Epoch : 30
+Train set: Average loss: 0.0233, Accuracy: 59575/60000 (99%)
+Test set: Average loss: 0.0192, Accuracy: 9946/10000 (99%)
+Epoch : 31
+Train set: Average loss: 0.0217, Accuracy: 59633/60000 (99%)
+Test set: Average loss: 0.0207, Accuracy: 9942/10000 (99%)
+Epoch : 32
+Train set: Average loss: 0.0224, Accuracy: 59583/60000 (99%)
+Test set: Average loss: 0.0200, Accuracy: 9940/10000 (99%)
+Epoch : 33
+Train set: Average loss: 0.0229, Accuracy: 59558/60000 (99%)
+Test set: Average loss: 0.0188, Accuracy: 9950/10000 (100%)
+Epoch : 34
+Train set: Average loss: 0.0203, Accuracy: 59630/60000 (99%)
+Test set: Average loss: 0.0174, Accuracy: 9947/10000 (99%)
+Epoch : 35
+Train set: Average loss: 0.0197, Accuracy: 59635/60000 (99%)
+Test set: Average loss: 0.0230, Accuracy: 9940/10000 (99%)
+Epoch : 36
+Train set: Average loss: 0.0202, Accuracy: 59619/60000 (99%)
+Test set: Average loss: 0.0182, Accuracy: 9945/10000 (99%)
+Epoch : 37
+Train set: Average loss: 0.0195, Accuracy: 59639/60000 (99%)
+Test set: Average loss: 0.0171, Accuracy: 9954/10000 (100%)
+Epoch : 38
+Train set: Average loss: 0.0206, Accuracy: 59618/60000 (99%)
+Test set: Average loss: 0.0196, Accuracy: 9944/10000 (99%)
+Epoch : 39
+Train set: Average loss: 0.0189, Accuracy: 59640/60000 (99%)
+Test set: Average loss: 0.0233, Accuracy: 9940/10000 (99%)
+Epoch : 40
+Train set: Average loss: 0.0206, Accuracy: 59638/60000 (99%)
+Test set: Average loss: 0.0189, Accuracy: 9946/10000 (99%)
+Best test accuracy is 99.54
+Training and evaluation finished
